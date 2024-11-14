@@ -9,6 +9,7 @@ export const authSchema = z.object({
 
 export const signUpSchema = authSchema
 	.extend({
+		name: z.string(),
 		confirmPassword: z.string(),
 	})
 	.refine((data) => data.password === data.confirmPassword, {

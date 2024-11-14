@@ -2,7 +2,7 @@ import { FaCheckDouble } from 'react-icons/fa';
 
 const AppLogo = () => {
 	return (
-		<div className="flex justify-center items-center gap-2 mb-11">
+		<div className="flex justify-center items-center gap-2">
 			<div className="bg-primary p-2 rounded-sm text-lg text-white">
 				<FaCheckDouble />
 			</div>
